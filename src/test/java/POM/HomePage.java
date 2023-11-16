@@ -88,7 +88,10 @@ public class HomePage extends Base {
 
     public static void userLogout() {
         driver.findElement(By.id("react-burger-menu-btn")).click();
+        waitForVisibilityOfElement(By.id("logout_sidebar_link"));
         driver.findElement(By.id("logout_sidebar_link")).click();
+        waitForVisibilityOfElement(By.id("user-name"));
+        LoginPage.userFailToLogin();
 
     }
 }

@@ -8,26 +8,20 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">18 791</td><td></td><td></td></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">31 144</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.HomePageTest</td><td><a href="#m0">FilterAToZ</a></td><td rowspan="1">1700126913852</td><td rowspan="1">137</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.HomePageTest</td><td><a href="#m1">UIHomePage</a></td><td rowspan="1">1700126916167</td><td rowspan="1">149</td></tr><tr class="passedodd"><td rowspan="4">test.LoginTest</td><td><a href="#m2">EmptyFields</a></td><td rowspan="1">1700126918388</td><td rowspan="1">712</td></tr><tr class="passedodd"><td><a href="#m3">FailTologin</a></td><td rowspan="1">1700126921130</td><td rowspan="1">428</td></tr><tr class="passedodd"><td><a href="#m4">SuccesTologin</a></td><td rowspan="1">1700126923889</td><td rowspan="1">765</td></tr><tr class="passedodd"><td><a href="#m5">UItest</a></td><td rowspan="1">1700126927892</td><td rowspan="1">167</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">test.HomePageTest</td><td><a href="#m0">FilterAToZ</a></td><td rowspan="1">1700146816189</td><td rowspan="1">254</td></tr><tr class="passedeven"><td><a href="#m1">FilterFromHighToLow</a></td><td rowspan="1">1700146819809</td><td rowspan="1">322</td></tr><tr class="passedeven"><td><a href="#m2">FilterFromLowToHigh</a></td><td rowspan="1">1700146822408</td><td rowspan="1">271</td></tr><tr class="passedeven"><td><a href="#m3">FilterZToA</a></td><td rowspan="1">1700146825718</td><td rowspan="1">518</td></tr><tr class="passedeven"><td><a href="#m4">UIHomePage</a></td><td rowspan="1">1700146828815</td><td rowspan="1">154</td></tr><tr class="passedeven"><td><a href="#m5">userLogout</a></td><td rowspan="1">1700146831723</td><td rowspan="1">1119</td></tr><tr class="passedodd"><td rowspan="4">test.LoginTest</td><td><a href="#m6">EmptyFields</a></td><td rowspan="1">1700146834980</td><td rowspan="1">345</td></tr><tr class="passedodd"><td><a href="#m7">FailTologin</a></td><td rowspan="1">1700146837644</td><td rowspan="1">816</td></tr><tr class="passedodd"><td><a href="#m8">SuccesTologin</a></td><td rowspan="1">1700146840780</td><td rowspan="1">463</td></tr><tr class="passedodd"><td><a href="#m9">UItest</a></td><td rowspan="1">1700146843205</td><td rowspan="1">228</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">test.HomePageTest#FilterAToZ</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:309)
-	at org.openqa.selenium.By.className(By.java:100)
-	at POM.HomePage.FilterAToZ(HomePage.java:27)
-	at test.HomePageTest.FilterAToZ(HomePageTest.java:41)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">test.HomePageTest#UIHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">test.LoginTest#EmptyFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">test.LoginTest#FailTologin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">test.LoginTest#SuccesTologin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">test.LoginTest#UItest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">test.HomePageTest#FilterAToZ</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.HomePageTest#FilterFromHighToLow</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.HomePageTest#FilterFromLowToHigh</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.HomePageTest#FilterZToA</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.HomePageTest#UIHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.HomePageTest#userLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">test.LoginTest#EmptyFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test.LoginTest#FailTologin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">test.LoginTest#SuccesTologin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">test.LoginTest#UItest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

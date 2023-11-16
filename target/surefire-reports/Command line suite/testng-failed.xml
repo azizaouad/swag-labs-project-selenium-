@@ -5,8 +5,8 @@
     <classes>
       <class name="test.HomePageTest">
         <methods>
-          <include name="FilterAToZ"/>
           <include name="Setup"/>
+          <include name="userLogout"/>
           <include name="TearDown"/>
         </methods>
       </class> <!-- test.HomePageTest -->
