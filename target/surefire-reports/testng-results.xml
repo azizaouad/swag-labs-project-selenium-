@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-16T10:28:29 WEST" name="Command line suite" finished-at="2023-11-16T10:28:48 WEST" duration-ms="18791">
+    <groups>
+    </groups>
+    <test started-at="2023-11-16T10:28:29 WEST" name="Command line test" finished-at="2023-11-16T10:28:48 WEST" duration-ms="18791">
+      <class name="test.HomePageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:test.HomePageTest@1e67a849]" started-at="2023-11-16T10:28:29 WEST" name="Setup" finished-at="2023-11-16T10:28:33 WEST" duration-ms="4332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="FilterAToZ()[pri:0, instance:test.HomePageTest@1e67a849]" started-at="2023-11-16T10:28:33 WEST" name="FilterAToZ" finished-at="2023-11-16T10:28:33 WEST" duration-ms="137" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Compound class names not permitted
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: unknown
+at org.openqa.selenium.By$ByClassName.<init>(By.java:309)
+at org.openqa.selenium.By.className(By.java:100)
+at POM.HomePage.FilterAToZ(HomePage.java:27)
+at test.HomePageTest.FilterAToZ(HomePageTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterAToZ -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.HomePageTest@1e67a849]" started-at="2023-11-16T10:28:33 WEST" name="TearDown" finished-at="2023-11-16T10:28:33 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:test.HomePageTest@1e67a849]" started-at="2023-11-16T10:28:34 WEST" name="Setup" finished-at="2023-11-16T10:28:36 WEST" duration-ms="2166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="UIHomePage()[pri:0, instance:test.HomePageTest@1e67a849]" started-at="2023-11-16T10:28:36 WEST" name="UIHomePage" finished-at="2023-11-16T10:28:36 WEST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UIHomePage -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.HomePageTest@1e67a849]" started-at="2023-11-16T10:28:36 WEST" name="TearDown" finished-at="2023-11-16T10:28:36 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- test.HomePageTest -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@5af97850]" started-at="2023-11-16T10:28:36 WEST" name="setup" finished-at="2023-11-16T10:28:38 WEST" duration-ms="2068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EmptyFields()[pri:0, instance:test.LoginTest@5af97850]" started-at="2023-11-16T10:28:38 WEST" name="EmptyFields" finished-at="2023-11-16T10:28:39 WEST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@5af97850]" started-at="2023-11-16T10:28:39 WEST" name="tearDown" finished-at="2023-11-16T10:28:39 WEST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@5af97850]" started-at="2023-11-16T10:28:39 WEST" name="setup" finished-at="2023-11-16T10:28:41 WEST" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="FailTologin()[pri:0, instance:test.LoginTest@5af97850]" started-at="2023-11-16T10:28:41 WEST" name="FailTologin" finished-at="2023-11-16T10:28:41 WEST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailTologin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@5af97850]" started-at="2023-11-16T10:28:41 WEST" name="tearDown" finished-at="2023-11-16T10:28:41 WEST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@5af97850]" started-at="2023-11-16T10:28:41 WEST" name="setup" finished-at="2023-11-16T10:28:43 WEST" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SuccesTologin()[pri:0, instance:test.LoginTest@5af97850]" started-at="2023-11-16T10:28:43 WEST" name="SuccesTologin" finished-at="2023-11-16T10:28:44 WEST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccesTologin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@5af97850]" started-at="2023-11-16T10:28:44 WEST" name="tearDown" finished-at="2023-11-16T10:28:44 WEST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@5af97850]" started-at="2023-11-16T10:28:44 WEST" name="setup" finished-at="2023-11-16T10:28:47 WEST" duration-ms="2935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UItest()[pri:0, instance:test.LoginTest@5af97850]" started-at="2023-11-16T10:28:47 WEST" name="UItest" finished-at="2023-11-16T10:28:48 WEST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UItest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@5af97850]" started-at="2023-11-16T10:28:48 WEST" name="tearDown" finished-at="2023-11-16T10:28:48 WEST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
