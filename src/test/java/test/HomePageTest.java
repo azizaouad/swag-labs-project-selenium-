@@ -31,12 +31,6 @@ public class HomePageTest extends Base {
         // les choix du filtre
         // filtrer du A To Z
         String a = "az";
-        // filtrer du Z To A
-        String b = "za";
-        // filtrer du low to high ( price )
-        String c = "lohi";
-        // filtrer du high to low ( price )
-        String d = "hilo";
         HomePage.ChoiceOfFilter(a);
         HomePage.FilterAToZ();
     }
@@ -44,14 +38,9 @@ public class HomePageTest extends Base {
     @Test()
     public void FilterZToA() {
         // les choix du filtre
-        // filtrer du A To Z
-        String a = "az";
         // filtrer du Z To A
         String b = "za";
-        // filtrer du low to high ( price )
-        String c = "lohi";
-        // filtrer du high to low ( price )
-        String d = "hilo";
+
         HomePage.ChoiceOfFilter(b);
         HomePage.FilterZToA();
     }
@@ -59,14 +48,8 @@ public class HomePageTest extends Base {
     @Test()
     public void FilterFromLowToHigh() {
         // les choix du filtre
-        // filtrer du A To Z
-        String a = "az";
-        // filtrer du Z To A
-        String b = "za";
         // filtrer du low to high ( price )
         String c = "lohi";
-        // filtrer du high to low ( price )
-        String d = "hilo";
         HomePage.ChoiceOfFilter(c);
         HomePage.FilterFromLowToHigh();
     }
@@ -74,12 +57,6 @@ public class HomePageTest extends Base {
     @Test()
     public void FilterFromHighToLow() {
         // les choix du filtre
-        // filtrer du A To Z
-        String a = "az";
-        // filtrer du Z To A
-        String b = "za";
-        // filtrer du low to high ( price )
-        String c = "lohi";
         // filtrer du high to low ( price )
         String d = "hilo";
         HomePage.ChoiceOfFilter(d);
