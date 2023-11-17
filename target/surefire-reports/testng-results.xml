@@ -2,130 +2,130 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-16T16:00:12 WEST" name="Surefire suite" finished-at="2023-11-16T16:00:43 WEST" duration-ms="31144">
+  <suite started-at="2023-11-17T14:25:51 WEST" name="Surefire suite" finished-at="2023-11-17T14:26:37 WEST" duration-ms="45745">
     <groups>
     </groups>
-    <test started-at="2023-11-16T16:00:12 WEST" name="Surefire test" finished-at="2023-11-16T16:00:43 WEST" duration-ms="31144">
+    <test started-at="2023-11-17T14:25:51 WEST" name="Surefire test" finished-at="2023-11-17T14:26:37 WEST" duration-ms="45745">
       <class name="test.HomePageTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:12 WEST" name="Setup" finished-at="2023-11-16T16:00:16 WEST" duration-ms="3511" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:25:52 WEST" name="Setup" finished-at="2023-11-17T14:26:02 WEST" duration-ms="10124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="FilterAToZ()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:16 WEST" name="FilterAToZ" finished-at="2023-11-16T16:00:16 WEST" duration-ms="254" status="PASS">
+        <test-method signature="FilterAToZ()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:02 WEST" name="FilterAToZ" finished-at="2023-11-17T14:26:02 WEST" duration-ms="453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FilterAToZ -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:16 WEST" name="TearDown" finished-at="2023-11-16T16:00:16 WEST" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:02 WEST" name="TearDown" finished-at="2023-11-17T14:26:02 WEST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:16 WEST" name="Setup" finished-at="2023-11-16T16:00:19 WEST" duration-ms="3046" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:02 WEST" name="Setup" finished-at="2023-11-17T14:26:06 WEST" duration-ms="3198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="FilterFromHighToLow()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:19 WEST" name="FilterFromHighToLow" finished-at="2023-11-16T16:00:20 WEST" duration-ms="322" status="PASS">
+        <test-method signature="FilterFromHighToLow()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:06 WEST" name="FilterFromHighToLow" finished-at="2023-11-17T14:26:06 WEST" duration-ms="748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FilterFromHighToLow -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:20 WEST" name="TearDown" finished-at="2023-11-16T16:00:20 WEST" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:06 WEST" name="TearDown" finished-at="2023-11-17T14:26:07 WEST" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:20 WEST" name="Setup" finished-at="2023-11-16T16:00:22 WEST" duration-ms="2061" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:07 WEST" name="Setup" finished-at="2023-11-17T14:26:10 WEST" duration-ms="3124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="FilterFromLowToHigh()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:22 WEST" name="FilterFromLowToHigh" finished-at="2023-11-16T16:00:22 WEST" duration-ms="271" status="PASS">
+        <test-method signature="FilterFromLowToHigh()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:10 WEST" name="FilterFromLowToHigh" finished-at="2023-11-17T14:26:10 WEST" duration-ms="462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FilterFromLowToHigh -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:22 WEST" name="TearDown" finished-at="2023-11-16T16:00:22 WEST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:10 WEST" name="TearDown" finished-at="2023-11-17T14:26:10 WEST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:22 WEST" name="Setup" finished-at="2023-11-16T16:00:25 WEST" duration-ms="2833" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:10 WEST" name="Setup" finished-at="2023-11-17T14:26:14 WEST" duration-ms="3483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="FilterZToA()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:25 WEST" name="FilterZToA" finished-at="2023-11-16T16:00:26 WEST" duration-ms="518" status="PASS">
+        <test-method signature="FilterZToA()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:14 WEST" name="FilterZToA" finished-at="2023-11-17T14:26:14 WEST" duration-ms="505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FilterZToA -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:26 WEST" name="TearDown" finished-at="2023-11-16T16:00:26 WEST" duration-ms="339" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:14 WEST" name="TearDown" finished-at="2023-11-17T14:26:15 WEST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:26 WEST" name="Setup" finished-at="2023-11-16T16:00:28 WEST" duration-ms="2237" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:15 WEST" name="Setup" finished-at="2023-11-17T14:26:18 WEST" duration-ms="3133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="UIHomePage()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:28 WEST" name="UIHomePage" finished-at="2023-11-16T16:00:28 WEST" duration-ms="154" status="PASS">
+        <test-method signature="UIHomePage()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:18 WEST" name="UIHomePage" finished-at="2023-11-17T14:26:18 WEST" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UIHomePage -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:28 WEST" name="TearDown" finished-at="2023-11-16T16:00:29 WEST" duration-ms="274" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:18 WEST" name="TearDown" finished-at="2023-11-17T14:26:18 WEST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:29 WEST" name="Setup" finished-at="2023-11-16T16:00:31 WEST" duration-ms="2475" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:18 WEST" name="Setup" finished-at="2023-11-17T14:26:21 WEST" duration-ms="3126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="userLogout()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:31 WEST" name="userLogout" finished-at="2023-11-16T16:00:32 WEST" duration-ms="1119" status="PASS">
+        <test-method signature="userLogout()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:21 WEST" name="userLogout" finished-at="2023-11-17T14:26:22 WEST" duration-ms="585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogout -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-16T16:00:32 WEST" name="TearDown" finished-at="2023-11-16T16:00:33 WEST" duration-ms="352" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.HomePageTest@7c469c48]" started-at="2023-11-17T14:26:22 WEST" name="TearDown" finished-at="2023-11-17T14:26:22 WEST" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- test.HomePageTest -->
       <class name="test.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-16T16:00:33 WEST" name="setup" finished-at="2023-11-16T16:00:34 WEST" duration-ms="1778" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-17T14:26:22 WEST" name="setup" finished-at="2023-11-17T14:26:25 WEST" duration-ms="2491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="EmptyFields()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-16T16:00:34 WEST" name="EmptyFields" finished-at="2023-11-16T16:00:35 WEST" duration-ms="345" status="PASS">
+        <test-method signature="EmptyFields()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-17T14:26:25 WEST" name="EmptyFields" finished-at="2023-11-17T14:26:25 WEST" duration-ms="579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmptyFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-16T16:00:35 WEST" name="tearDown" finished-at="2023-11-16T16:00:35 WEST" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-17T14:26:25 WEST" name="tearDown" finished-at="2023-11-17T14:26:25 WEST" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-16T16:00:35 WEST" name="setup" finished-at="2023-11-16T16:00:37 WEST" duration-ms="2105" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-17T14:26:25 WEST" name="setup" finished-at="2023-11-17T14:26:28 WEST" duration-ms="2638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="FailTologin()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-16T16:00:37 WEST" name="FailTologin" finished-at="2023-11-16T16:00:38 WEST" duration-ms="816" status="PASS">
+        <test-method signature="FailTologin()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-17T14:26:28 WEST" name="FailTologin" finished-at="2023-11-17T14:26:29 WEST" duration-ms="738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FailTologin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-16T16:00:38 WEST" name="tearDown" finished-at="2023-11-16T16:00:38 WEST" duration-ms="299" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-17T14:26:29 WEST" name="tearDown" finished-at="2023-11-17T14:26:29 WEST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-16T16:00:38 WEST" name="setup" finished-at="2023-11-16T16:00:40 WEST" duration-ms="2019" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-17T14:26:29 WEST" name="setup" finished-at="2023-11-17T14:26:32 WEST" duration-ms="3183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SuccesTologin()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-16T16:00:40 WEST" name="SuccesTologin" finished-at="2023-11-16T16:00:41 WEST" duration-ms="463" status="PASS">
+        <test-method signature="SuccesTologin()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-17T14:26:32 WEST" name="SuccesTologin" finished-at="2023-11-17T14:26:33 WEST" duration-ms="643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuccesTologin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-16T16:00:41 WEST" name="tearDown" finished-at="2023-11-16T16:00:41 WEST" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-17T14:26:33 WEST" name="tearDown" finished-at="2023-11-17T14:26:33 WEST" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-16T16:00:41 WEST" name="setup" finished-at="2023-11-16T16:00:43 WEST" duration-ms="1726" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-17T14:26:33 WEST" name="setup" finished-at="2023-11-17T14:26:37 WEST" duration-ms="3654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="UItest()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-16T16:00:43 WEST" name="UItest" finished-at="2023-11-16T16:00:43 WEST" duration-ms="228" status="PASS">
+        <test-method signature="UItest()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-17T14:26:37 WEST" name="UItest" finished-at="2023-11-17T14:26:37 WEST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UItest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-16T16:00:43 WEST" name="tearDown" finished-at="2023-11-16T16:00:43 WEST" duration-ms="307" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@7ce3cb8e]" started-at="2023-11-17T14:26:37 WEST" name="tearDown" finished-at="2023-11-17T14:26:37 WEST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
