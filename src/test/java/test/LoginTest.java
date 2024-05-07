@@ -15,6 +15,9 @@ public class LoginTest extends Base {
     @BeforeMethod()
     public void setup() {
         launchBrowser();
+
+
+        
     }
 
     @AfterMethod()
